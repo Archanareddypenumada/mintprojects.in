@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint Projects - Gated Community</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color:black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color:rgb(211, 171, 41);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+        }
+
+
+.special-item {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left:30%;
+}
+
+.special-item img {
+  width: auto;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.item{
+    border-style: solid;
+    padding:15px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color:whitesmoke;
+    text-align: center;
+    font-family:Brush Script MT;
+    font-size: 32px;
+
+
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+  background-color:rgba(233, 228, 218, 0.377) ;
+  text-align: center;
+  font-family: Bradley Hand ITC;
+  font-weight:bold;
+  margin: 0;
+  padding: 0;
+  color:black;
+}
+
+
+
+.footer-container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info h3,
+.legal-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.contact-info a {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.legal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.legal-info li {
+    margin-bottom: 5px;
+}
+
+.legal-info a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.legal-info a:hover {
+    text-decoration: underline;
+}
+</style>
+
+
+
+
+   
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mint Projects</h1>
+        <p>Your Premier Gated Community</p>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#amenities">Project Highlights</a>
+            <a href="#contact">Contact Us</a>
+            <a href="layout.html">Layout</a>
+        </nav>
+    </header>
+    
+<div><br>
+    <div class="item">
+    Welcome to a world of elevated living and unparalleled luxury.
+    <br>
+    Introducing MINT Evara, where sophistication meets comfort, and every detail is meticulously crafted to redefine your concept of home.
+ </div>
+    <div class="special-item">
+    <img src="mintevara.jpeg" width="200%">
+</div></div>
+
+
+    <div class="container">
+        <div class="content">
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Mint Projects is a luxurious gated community...</p>
+            </section>
+
+            <section id="amenities">
+                <h2>Project Highlights</h2>
+                <ul>
+                    <li>10 minute drive from Kurnool city</li>
+                    <li>Grand Entrance</li>
+                    <li>Road side plantations</li>
+                    <li>Street lights</li>
+                    <li>Plots with Vaastu</li>
+                    <li>40 ft Black Top Roads</li>
+                    <li>Drainage system</li>
+                    <li>Rain water Harvesting</li>
+                    <li>Electricity</li>
+                    <li>Compund wall</li>
+                    <li>Ample water with Overhead Tank</li>
+                    <li>Beautiful Park</li>
+                    <li>Badminton court</li>
+                    <li>Cricket Practice Net</li>
+                    <li>Basket ball court</li>
+                    <li>Walking Track</li>
+                    <li>Open Gym</li>
+                    <li>Senior Citizen Area</li>
+                    <li>Children Play Area</li>
+                    <li>One acre multi utility green park</li>
+                </ul>
+            </section>
+            <div class="gallery-container">
+            <div>
+            <div style="font-family:Kunstler Script;font-size:40px;font-weight:bolder;Text-align:center;">
+                Gallery</div><br>
+                
+                <div class="gallery">
+                    <img src="road.jpeg" alt="Img 1">
+                    <img src="plants.jpeg" alt="Img 2">
+                    <img src="play.jpeg" alt="Img 3">
+                    <img src="relax.jpeg" alt="Img 4">
+                    <img src="relax1.jpeg" alt="Img 5">
+                    <img src="opengym.jpeg" alt="Img 6">
+                    <img src="fountain.jpeg" alt="Img 7">
+                    <img src="basketball.jpeg" alt="Img 8">
+                    <img src="tank.jpeg" alt="Img 9">
+
+
+                </div></div></div>
+           
+                <section id="map">
+                    <h2>Find Us on the Map</h2>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10853.99181039217!2d78.01843950326993!3d15.884659902815107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5e7318204363b%3A0x9372057459305238!2sMint%20Evara%20-%20Premium%20Villa%20Plots!5e0!3m2!1sen!2sin!4v1692428982347!5m2!1sen!2sin" width="600" height="450" style="border:0; margin-left:25%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                    </div>
+                </section>
+                
+<section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+        <blockquote>
+            "I am so impressed with the quality and amenities of Mint Evara. This is truly a dream community!"
+        </blockquote>
+        <cite>- John Doe</cite>
+    </div>
+    <div class="testimonial">
+        <blockquote>
+            "Amazing experience! The facilities and the location are perfect."
+        </blockquote>
+        <cite>- Jane Smith</cite>
+    </div>
+    <!-- Add more testimonials here -->
+</section>
+
+         <footer>
+            <div class="footer-container">
+                <div class="contact-info">
+                  <h3>Contact Information</h3>
+                  <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/your_instagram">Instagram</a></p>
+                  <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/your_facebook">Facebook</a></p>
+                  <p><i class="far fa-envelope"></i> <a href="mailto:info@example.com">info@example.com</a></p>
+                  <p><i class="fas fa-phone"></i> Phone: +1234567890</p>
+                </div>
+                <div class="legal-info">
+                  <h3>Legal Information</h3>
+                  <ul>
+                    
+                      <li><a href="terms.html">Terms and Conditions</a></li>
+                  
+                  </ul>
+                </div>
+              </div>
+`<p>&copy; MINT Projects. All rights reserved.</p>     
+</footer>
+<script>
+    const gallery = document.querySelector('.gallery');
+    
+    function openLightbox(event) {
+        const imageSrc = event.target.src;
+        const lightbox = document.createElement('div');
+        lightbox.classList.add('lightbox');
+        lightbox.innerHTML = `
+            <img src="${imageSrc}" alt="Image">
+            <span class="close-btn">&times;</span>
+        `;
+        document.body.appendChild(lightbox);
+    
+        const closeBtn = lightbox.querySelector('.close-btn');
+        closeBtn.addEventListener('click', closeLightbox);
+    }
+    
+    // Function to close the lightbox
+    function closeLightbox() {
+        const lightbox = document.querySelector('.lightbox');
+        lightbox.remove();
+    }
+    
+    // Attach a click event listener to each image
+    const images = document.querySelectorAll('.gallery img');
+    images.forEach(image => {
+        image.addEventListener('click', openLightbox);
+    });
+</script>
+</body>
+</html>
